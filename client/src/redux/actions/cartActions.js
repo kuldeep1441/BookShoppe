@@ -3,7 +3,9 @@ import axios from "axios";
 
 export const addToCart = (id, qty) => async (dispatch, getState) => {
   try {
-    const { data } = await axios.get(`/products/${id}`);
+    const { data } = await axios.get(
+      `book-shoppe-140l.vercel.app/products/${id}`
+    );
 
     dispatch({
       type: actionTypes.ADD_TO_CART,

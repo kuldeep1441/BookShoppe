@@ -26,7 +26,11 @@ export const authenticateLogin = (user) => async (dispatch) => {
       },
     };
 
-    const { data } = await axios.post(`/login`, user, config);
+    const { data } = await axios.post(
+      `book-shoppe-140l.vercel.app/login`,
+      user,
+      config
+    );
 
     dispatch({ type: USER_LOGIN_SUCCESS, payload: data });
 
@@ -49,7 +53,11 @@ export const authenticateSignup = (user) => async (dispatch) => {
       },
     };
 
-    const { data } = await axios.post(`/signup`, user, config);
+    const { data } = await axios.post(
+      `book-shoppe-140l.vercel.app/signup`,
+      user,
+      config
+    );
 
     dispatch({ type: USER_REGISTER_SUCCESS, payload: data });
     dispatch({ type: USER_LOGIN_SUCCESS, payload: data }); // Auto-login after signup
@@ -91,7 +99,10 @@ export const getUserDetails = (id) => async (dispatch, getState) => {
       },
     };
 
-    const { data } = await axios.get(`/users/${id}`, config);
+    const { data } = await axios.get(
+      `book-shoppe-140l.vercel.app/users/${id}`,
+      config
+    );
 
     dispatch({ type: USER_DETAILS_SUCCESS, payload: data });
   } catch (error) {

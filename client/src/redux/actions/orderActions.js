@@ -39,7 +39,11 @@ export const createOrder = (order) => async (dispatch, getState) => {
       },
     };
 
-    const { data } = await axios.post(`/orders`, order, config);
+    const { data } = await axios.post(
+      `book-shoppe-140l.vercel.app/orders`,
+      order,
+      config
+    );
 
     dispatch({
       type: ORDER_CREATE_SUCCESS,
@@ -81,7 +85,10 @@ export const getOrderDetails = (id) => async (dispatch, getState) => {
       },
     };
 
-    const { data } = await axios.get(`/orders/${id}`, config);
+    const { data } = await axios.get(
+      `book-shoppe-140l.vercel.app/orders/${id}`,
+      config
+    );
 
     dispatch({
       type: ORDER_DETAILS_SUCCESS,
@@ -121,7 +128,7 @@ export const payOrder =
       };
 
       const { data } = await axios.put(
-        `/orders/${orderId}/pay`,
+        `book-shoppe-140l.vercel.app/orders/${orderId}/pay`,
         paymentResult,
         config
       );
@@ -162,7 +169,7 @@ export const deliverOrder = (order) => async (dispatch, getState) => {
     };
 
     const { data } = await axios.put(
-      `/orders/${order._id}/deliver`,
+      `book-shoppe-140l.vercel.app/orders/${order._id}/deliver`,
       {},
       config
     );
@@ -202,7 +209,10 @@ export const listMyOrders = () => async (dispatch, getState) => {
       },
     };
 
-    const { data } = await axios.get(`/orders/myorders`, config);
+    const { data } = await axios.get(
+      `book-shoppe-140l.vercel.app/orders/myorders`,
+      config
+    );
 
     dispatch({
       type: ORDER_LIST_MY_SUCCESS,
@@ -239,7 +249,10 @@ export const listOrders = () => async (dispatch, getState) => {
       },
     };
 
-    const { data } = await axios.get(`/orders`, config);
+    const { data } = await axios.get(
+      `book-shoppe-140l.vercel.app/orders`,
+      config
+    );
 
     dispatch({
       type: ORDER_LIST_SUCCESS,

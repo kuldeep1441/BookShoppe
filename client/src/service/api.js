@@ -1,6 +1,6 @@
-import axios from "axios";
+// import axios from "axios";
 
-const url = ;
+// const url = ;
 
 // export const authenticateLogin = async (user) => {
 //     try {
@@ -34,12 +34,12 @@ const url = ;
 //     }
 // }
 
-export const payUsingPaytm = async (data) => {
-  try {
-    const response = await axios.post(`${url}/payment`, data);
-    return response.data; // Return only the relevant data
-  } catch (error) {
-    console.error("Error while processing payment:", error.message); // Improved error handling
-    throw error; // Rethrow to allow further handling if needed
-  }
-};
+// export const payUsingPaytm = async (data) => {
+//   try {
+//     const response = await axios.post(`${url}/payment`, data);
+//     return response.data; // Return only the relevant data
+//   } catch (error) {
+//     console.error("Error while processing payment:", error.message); // Improved error handling
+//     throw error; // Rethrow to allow further handling if needed
+//   }
+// };
