@@ -14,6 +14,8 @@ const DetailView = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
+    console.log(product.id);
+    console.log(id);
     if (product && id !== product.id) dispatch(getProductDetails(id));
   }, [dispatch, product, id, loading]);
 
