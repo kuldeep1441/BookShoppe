@@ -35,6 +35,12 @@ app.get("/paypal", (req, res) =>
   res.send(process.env.PAYPAL_CLIENT_ID)
 );
 
+// rough
+app.get("/", (req, res) => {
+  res.json("Hello");
+})
+
+
 
 //seller
 app.post("/send-seller-request", async (req, res) => {
