@@ -18,11 +18,13 @@ if (process.env.NODE_ENV === "development") {
   app.use(morgan("dev"));
 }
 
-app.use(cors({
-  origin: ["https://book-shoppe.vercel.app"],
-  methods: ["POST", "GET"],
-  credentials: true
-}));
+app.use(
+  cors({
+    origin: [""],
+    methods: ["POST", "GET"],
+    credentials: true,
+  })
+);
 
 app.use(bodyParser.json({extended: true}));
 app.use(bodyParser.urlencoded({extended: true}));
