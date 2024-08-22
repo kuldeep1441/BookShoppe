@@ -55,7 +55,7 @@ const OrderScreen = () => {
 
     const addPayPalScript = async () => {
       const { data: clientId } = await axios.get(
-        "book-shoppe-140l.vercel.app/paypal"
+        "https://book-shoppe-140l.vercel.app/paypal"
       );
       const script = document.createElement("script");
       script.type = "text/javascript";

@@ -29,7 +29,7 @@ function Seller({ userInfo, logoutHandler }) {
 
     try {
       const response = await axios.post(
-        `book-shoppe-140l.vercel.app/send-seller-request`,
+        `https://book-shoppe-140l.vercel.app/send-seller-request`,
         {
           username,
           email,

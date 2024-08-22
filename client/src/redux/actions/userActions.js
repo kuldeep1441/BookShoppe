@@ -27,7 +27,7 @@ export const authenticateLogin = (user) => async (dispatch) => {
     };
 
     const { data } = await axios.post(
-      `book-shoppe-140l.vercel.app/login`,
+      `https://book-shoppe-140l.vercel.app/login`,
       user,
       config
     );
@@ -54,7 +54,7 @@ export const authenticateSignup = (user) => async (dispatch) => {
     };
 
     const { data } = await axios.post(
-      `book-shoppe-140l.vercel.app/signup`,
+      `https://book-shoppe-140l.vercel.app/signup`,
       user,
       config
     );
@@ -100,7 +100,7 @@ export const getUserDetails = (id) => async (dispatch, getState) => {
     };
 
     const { data } = await axios.get(
-      `book-shoppe-140l.vercel.app/users/${id}`,
+      `https://book-shoppe-140l.vercel.app/users/${id}`,
       config
     );
 

@@ -40,7 +40,7 @@ export const createOrder = (order) => async (dispatch, getState) => {
     };
 
     const { data } = await axios.post(
-      `book-shoppe-140l.vercel.app/orders`,
+      `https://book-shoppe-140l.vercel.app/orders`,
       order,
       config
     );
@@ -86,7 +86,7 @@ export const getOrderDetails = (id) => async (dispatch, getState) => {
     };
 
     const { data } = await axios.get(
-      `book-shoppe-140l.vercel.app/orders/${id}`,
+      `https://book-shoppe-140l.vercel.app/orders/${id}`,
       config
     );
 
@@ -128,7 +128,7 @@ export const payOrder =
       };
 
       const { data } = await axios.put(
-        `book-shoppe-140l.vercel.app/orders/${orderId}/pay`,
+        `https://book-shoppe-140l.vercel.app/orders/${orderId}/pay`,
         paymentResult,
         config
       );
@@ -169,7 +169,7 @@ export const deliverOrder = (order) => async (dispatch, getState) => {
     };
 
     const { data } = await axios.put(
-      `book-shoppe-140l.vercel.app/orders/${order._id}/deliver`,
+      `https://book-shoppe-140l.vercel.app/orders/${order._id}/deliver`,
       {},
       config
     );
@@ -210,7 +210,7 @@ export const listMyOrders = () => async (dispatch, getState) => {
     };
 
     const { data } = await axios.get(
-      `book-shoppe-140l.vercel.app/orders/myorders`,
+      `https://book-shoppe-140l.vercel.app/orders/myorders`,
       config
     );
 
@@ -250,7 +250,7 @@ export const listOrders = () => async (dispatch, getState) => {
     };
 
     const { data } = await axios.get(
-      `book-shoppe-140l.vercel.app/orders`,
+      `https://book-shoppe-140l.vercel.app/orders`,
       config
     );
 
