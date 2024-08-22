@@ -20,7 +20,7 @@ if (process.env.NODE_ENV === "development") {
 
 app.use(
   cors({
-    origin: ["https://book-shoppe.vercel.app/"],
+    origin: ["https://book-shoppe.vercel.app"],
     methods: ["POST", "GET"],
     credentials: true,
   })
