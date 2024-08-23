@@ -13,7 +13,7 @@ function NavBar() {
             <img
               src={img.url}
               alt="NavBar Item"
-              className="h-12 sm:h-16 w-auto"
+              className="h-12 sm:h-16 w-auto mx-auto"
             />
             <p className="mt-2 text-xs sm:text-sm md:text-base">{img.text}</p>
           </Link>
