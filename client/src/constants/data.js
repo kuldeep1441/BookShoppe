@@ -13,22 +13,23 @@ export const navData = [
 export const bannerData = [
   {
     id: 1,
-    url: "https://i.pinimg.com/564x/71/51/40/715140bc1e68cb64e23a98118e94cede.jpg",
+    url: "https://images.unsplash.com/photo-1562932831-afcfe48b5786?q=80&w=1830&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: 2,
-    url: "https://rukminim1.flixcart.com/flap/3376/560/image/57267a180af306fe.jpg?q=50",
+    url: "https://images.pexels.com/photos/12064/pexels-photo-12064.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   },
   {
     id: 3,
-    url: "https://rukminim1.flixcart.com/flap/3376/560/image/ae9966569097a8b7.jpg?q=50",
+    url: "https://images.unsplash.com/photo-1507738978512-35798112892c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: 4,
-    url: "https://rukminim1.flixcart.com/flap/3376/560/image/f6202f13b6f89b03.jpg?q=50",
+    url: "https://images.unsplash.com/photo-1554896541-dff010081afe?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 ];
 // https://i.pinimg.com/564x/71/51/40/715140bc1e68cb64e23a98118e94cede.jpg
+
 
 export const dealData = [
     { 
