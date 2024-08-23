@@ -4,20 +4,20 @@ export const navData = [
     text: "Non Fiction",
   },
   {
-    url: "https://rukminim2.flixcart.com/image/128/128/xif0q/book/b/z/y/shri-vinod-pustak-mandir-shrimad-bhagwat-geeta-book-original-imahyxw37u3g8tzn.jpeg?q=70",
-    text: "Religious",
-  },
-  {
-    url: "https://rukminim2.flixcart.com/image/128/128/xif0q/regionalbooks/o/z/h/a-p-j-abdul-kalam-wings-of-fire-autobiography-of-abdul-kalam-original-imagnrjsvctzezfn.jpeg?q=70",
-    text: "Autobiography",
-  },
-  {
     url: "https://rukminim2.flixcart.com/image/128/128/k1gr2q80/book/7/4/2/the-immortals-of-meluha-original-imafhyybfdhzkur6.jpeg?q=70",
     text: "Fiction",
   },
   {
+    url: "https://rukminim2.flixcart.com/image/128/128/xif0q/book/b/z/y/shri-vinod-pustak-mandir-shrimad-bhagwat-geeta-book-original-imahyxw37u3g8tzn.jpeg?q=70",
+    text: "Religious",
+  },
+  {
     url: "https://rukminim2.flixcart.com/image/128/128/xif0q/book/7/y/r/ikigai-original-imah3nvq6th4qv95.jpeg?q=70",
     text: "Self Help",
+  },
+  {
+    url: "https://rukminim2.flixcart.com/image/128/128/xif0q/regionalbooks/o/z/h/a-p-j-abdul-kalam-wings-of-fire-autobiography-of-abdul-kalam-original-imagnrjsvctzezfn.jpeg?q=70",
+    text: "Biography",
   },
   {
     url: "https://rukminim2.flixcart.com/image/128/128/ku5ufm80/book/4/h/l/siddhartha-original-imag7c9n25kkh5nq.jpeg?q=70",
