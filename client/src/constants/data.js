@@ -12,28 +12,28 @@ export const navData = [
     text: "Autobiography",
   },
   {
-    url: "https://rukminim1.flixcart.com/flap/128/128/image/82b3ca5fb2301045.png?q=100",
-    text: "Fashion",
+    url: "https://rukminim2.flixcart.com/image/128/128/k1gr2q80/book/7/4/2/the-immortals-of-meluha-original-imafhyybfdhzkur6.jpeg?q=70",
+    text: "Fiction",
   },
   {
-    url: "https://rukminim1.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100",
-    text: "Electronics",
+    url: "https://rukminim2.flixcart.com/image/128/128/xif0q/book/7/y/r/ikigai-original-imah3nvq6th4qv95.jpeg?q=70",
+    text: "Self Help",
   },
   {
-    url: "https://rukminim1.flixcart.com/flap/128/128/image/ee162bad964c46ae.png?q=100",
-    text: "Home",
+    url: "https://rukminim2.flixcart.com/image/128/128/ku5ufm80/book/4/h/l/siddhartha-original-imag7c9n25kkh5nq.jpeg?q=70",
+    text: "Spiritual",
   },
   {
-    url: "https://rukminim1.flixcart.com/flap/128/128/image/0ff199d1bd27eb98.png?q=100",
-    text: "Appliances",
+    url: "https://rukminim2.flixcart.com/image/128/128/xif0q/book/w/0/7/rich-dad-poor-dad-book-in-english-paperback-original-imahfuyx3ee9taya.jpeg?q=70",
+    text: "Business",
   },
   {
-    url: "https://rukminim1.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100",
-    text: "Travel",
+    url: "https://rukminim2.flixcart.com/image/128/128/xif0q/book/m/t/l/body-mind-balancing-original-imagvgp6ftdmnefu.jpeg?q=70",
+    text: "Philosophy",
   },
   {
-    url: "https://rukminim1.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100",
-    text: "Beauty, Toys & More",
+    url: "https://rukminim2.flixcart.com/image/612/612/xif0q/book/h/y/f/data-structures-and-algorithms-with-the-c-stl-original-imagyatwevhnazkh.jpeg?q=70",
+    text: "Academic",
   },
 ];
 
