@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const DealProductCard = ({ item }) => {
   return (
-    <div className="bg-white shadow-lg rounded-lg overflow-hidden my-3 p-3 sm:w-[280px] w-[92vw] h-[380px]">
+    <div className="bg-white shadow-lg rounded-lg overflow-hidden my-3 p-3 sm:w-[250px] w-[92vw] h-[380px]">
       <Link to={`/product/${item.id}`}>
         <img
           src={item.url}
