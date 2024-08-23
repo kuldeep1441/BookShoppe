@@ -7,7 +7,7 @@ function NavBar() {
       {navData.map((img, index) => (
           <div
             key={index}
-            className="flex flex-col items-center mx-2 sm:mx-4 my-2 sm:my-0 w-1/4 sm:w-auto"
+            className="flex flex-col items-center justify-center mx-2 sm:mx-4 my-2 sm:my-0 w-1/4 sm:w-auto"
         >
           <Link
           to={`/category/${img.text}`}

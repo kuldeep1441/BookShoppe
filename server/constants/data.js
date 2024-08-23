@@ -1,17 +1,18 @@
 export const products = [
   {
     id: "product1",
-    url: "https://rukminim1.flixcart.com/image/150/150/kapoo7k0/electric-kettle/p/6/s/pigeon-favourite-original-imafs7xhj5uwgrh4.jpeg?q=70",
+    url: "https://rukminim2.flixcart.com/image/416/416/l33cia80/book/a/d/0/think-and-grow-rich-original-edition-original-image9tf7ymshwyy.jpeg?q=70",
     detailUrl:
-      "https://rukminim1.flixcart.com/image/416/416/kapoo7k0/electric-kettle/p/6/s/pigeon-favourite-original-imafs7xhj5uwgrh4.jpeg?q=70",
+      "https://rukminim2.flixcart.com/image/416/416/l33cia80/book/a/d/0/think-and-grow-rich-original-edition-original-image9tf7ymshwyy.jpeg?q=70",
     title: {
-      shortTitle: "Home & Kitchen",
-      longTitle: "Pigeon FAVOURITE Electric Kettle  (1.5 L, Silver, Black)",
+      shortTitle: "Think and Grow Rich",
+      longTitle:
+        "Think and Grow Rich - Original Edition  (English, Paperback, Hill Napoleon)",
     },
     price: {
-      mrp: 1195,
-      cost: 625,
-      discount: "47%",
+      mrp: 1500,
+      cost: 301,
+      discount: "79%",
     },
     quantity: 10,
     description:
@@ -20,54 +21,55 @@ export const products = [
     tagline: "Deal of the day",
     rating: 0,
     reviews: [],
-    category: "Electronics",
+    category: "Non Fiction",
   },
   {
     id: "product2",
-    url: "https://rukminim1.flixcart.com/image/416/416/kl6wx3k0/sandwich-maker/8/r/d/sandwich-01-flipkart-smartbuy-original-imagydds4zthxt8z.jpeg?q=70",
+    url: "https://rukminim2.flixcart.com/image/416/416/xif0q/book/b/z/y/shri-vinod-pustak-mandir-shrimad-bhagwat-geeta-book-original-imahyxw37u3g8tzn.jpeg?q=70",
     detailUrl:
-      "https://rukminim1.flixcart.com/image/416/416/kl6wx3k0/sandwich-maker/8/r/d/sandwich-01-flipkart-smartbuy-original-imagydds4zthxt8z.jpeg?q=70",
+      "https://rukminim2.flixcart.com/image/416/416/xif0q/book/b/z/y/shri-vinod-pustak-mandir-shrimad-bhagwat-geeta-book-original-imahyxw37u3g8tzn.jpeg?q=70",
     title: {
-      shortTitle: "Sandwich Makers",
-      longTitle: "Flipkart SmartBuy Sandwich 01 Grill  (Black)",
+      shortTitle: "Bhagwat Geeta",
+      longTitle:
+        "Shri Vinod Pustak Mandir Shrimad Bhagwat Geeta Book  (Paperback, Rajeev Agarwal)",
     },
     price: {
-      mrp: 1499,
-      cost: 899,
-      discount: "40%",
+      mrp: 399,
+      cost: 389,
+      discount: "2%",
     },
     quantity: 10,
     description:
-      "This non-stick sandwich toaster .easy to use and very handy. Directly hold over flame to make tasty toasts and toasted sandwiches. Specially designed by keeping your needs in mind, the sandwich maker makes whatever youre doing simpler, smarter and better",
+      "The SVPM (Shri Vinod Pustak Mandir) ‘Shrimad Bhagwat Geeta’ Book is specially written to help readers develop comfort, strength, and inspiration and provides practical guidance and inspiration to help individuals achieve greater success in every aspect of life. One of the well-known authors, Mr. Rajeev Agarwal, wrote the Shrimad Bhagwat Geeta book, which is a truly beneficial devotional work that aims to educate the readers. The Shrimad Bhagwat Geeta is among the most influential, intellectual and religious works in Indian history. In addition to being a sacred book, the Gita offers a distinct philosophy that gives advice and the art of life. Overall, the SVPM ‘Shrimad Bhagwat Geeta’ Book is a high-quality resource crafted by extensive research and contains useful content which is crucial for the readers and made by keeping in mind every important need of readers.",
     discount: "From 99+5% Off",
     tagline: "Pestige, Nova & more",
     rating: 0,
     reviews: [],
-    category: "Electronics",
+    category: "Religious",
   },
   {
     id: "product3",
-    url: "https://rukminim2.flixcart.com/image/312/312/xif0q/book/f/j/s/the-subtle-art-of-not-giving-a-f-ck-original-imah3shfjazehrga.jpeg?q=70",
+    url: "https://rukminim2.flixcart.com/image/416/416/xif0q/regionalbooks/o/z/h/a-p-j-abdul-kalam-wings-of-fire-autobiography-of-abdul-kalam-original-imagnrjsvctzezfn.jpeg?q=70",
     detailUrl:
-      "https://rukminim2.flixcart.com/image/312/312/xif0q/book/f/j/s/the-subtle-art-of-not-giving-a-f-ck-original-imah3shfjazehrga.jpeg?q=70",
+      "https://rukminim2.flixcart.com/image/416/416/xif0q/regionalbooks/o/z/h/a-p-j-abdul-kalam-wings-of-fire-autobiography-of-abdul-kalam-original-imagnrjsvctzezfn.jpeg?q=70",
     title: {
-      shortTitle: "Fitness Gear",
+      shortTitle: "Wings of Fire",
       longTitle:
-        "AJRO DEAL New Adjustable Single Resistance Tube (Multicolor) Resistance Tube  (Multicolor)",
+        "Wings Of Fire, Autobiography Of Abdul Kalam {Book}  (Paperback, A. P. J. Abdul Kalam)",
     },
     price: {
-      mrp: 499,
-      cost: 166,
-      discount: "66%",
+      mrp: 699,
+      cost: 200,
+      discount: "71%",
     },
     quantity: 10,
     description:
       "This unique product can tone your back muscles, reduce belly fat, improve blood circulation and also improves your body posture. It increases the stamina, energy and vitality of the body. The elastic resistance of the rubber training rope can be used to train and exercise in whichever way you want, according to your physical needs.",
-    discount: "Upto 70% Off",
+    discount: "Upto 74% Off",
     tagline: "Deal of the Day",
     rating: 0,
     reviews: [],
-    category: "Electronics",
+    category: "Autobiography",
   },
   {
     id: "product4",

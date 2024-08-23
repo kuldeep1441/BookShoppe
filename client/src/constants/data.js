@@ -4,12 +4,12 @@ export const navData = [
     text: "Non Fiction",
   },
   {
-    url: "https://rukminim1.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100",
-    text: "Grocery",
+    url: "https://rukminim2.flixcart.com/image/128/128/xif0q/book/b/z/y/shri-vinod-pustak-mandir-shrimad-bhagwat-geeta-book-original-imahyxw37u3g8tzn.jpeg?q=70",
+    text: "Religious",
   },
   {
-    url: "https://rukminim1.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100",
-    text: "Mobile",
+    url: "https://rukminim2.flixcart.com/image/128/128/xif0q/regionalbooks/o/z/h/a-p-j-abdul-kalam-wings-of-fire-autobiography-of-abdul-kalam-original-imagnrjsvctzezfn.jpeg?q=70",
+    text: "Autobiography",
   },
   {
     url: "https://rukminim1.flixcart.com/flap/128/128/image/82b3ca5fb2301045.png?q=100",
