@@ -145,5 +145,70 @@ export const products = [
         rating: 0,
         reviews: [],
         category: 'Electronics'
-    }
+    },
+    {
+    id: "product8",
+    url: 'https://rukminim2.flixcart.com/image/150/150/l3929ow0/regionalbooks/b/a/f/shreemad-bhagwat-geeta-original-imageeufsk4ds57y.jpeg?q=70',
+    detailUrl:
+      'https://rukminim2.flixcart.com/image/416/416/l3929ow0/regionalbooks/b/a/f/shreemad-bhagwat-geeta-original-imageeufsk4ds57y.jpeg?q=70',
+    title: {
+      shortTitle: "Bhagwat Gita",
+      longTitle: "Sampuran Bhagwat Gita New Edition ",
+    },
+    price: {
+      mrp: 650,
+      cost: 289,
+      discount: "55%",
+    },
+    quantity: 10,
+    description:
+      'Let music brighten up your mood anytime, anywhere with the boAt 235v2 Fast Charging Bluetooth Headset. This Bluetooth headset features a Call Vibration Alert, a Fast Charging Technology, and Easy Access Controls to listen to and manage your favorite music with ease.',
+    discount: 'Minimum 55% Off',
+    tagline: "Grab Now!",
+    rating: 0,
+    reviews: [],
+    category: 'Electronics',
+  }
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//rukminim2.flixcart.com/image/150/150/l3929ow0/regionalbooks/b/a/f/shreemad-bhagwat-geeta-original-imageeufsk4ds57y.jpeg?q=70 [
+  
+// {
+//     id: "product8",
+//     url: 'https://rukminim2.flixcart.com/image/150/150/l3929ow0/regionalbooks/b/a/f/shreemad-bhagwat-geeta-original-imageeufsk4ds57y.jpeg?q=70',
+//     detailUrl:
+//       'https://rukminim2.flixcart.com/image/416/416/l3929ow0/regionalbooks/b/a/f/shreemad-bhagwat-geeta-original-imageeufsk4ds57y.jpeg?q=70',
+//     title: {
+//       shortTitle: "Bhagwat Gita",
+//       longTitle: "Sampuran Bhagwat Gita New Edition ",
+//     },
+//     price: {
+//       mrp: 650,
+//       cost: 289,
+//       discount: "55%",
+//     },
+//     quantity: 10,
+//     description:
+//       'Let music brighten up your mood anytime, anywhere with the boAt 235v2 Fast Charging Bluetooth Headset. This Bluetooth headset features a Call Vibration Alert, a Fast Charging Technology, and Easy Access Controls to listen to and manage your favorite music with ease.',
+//     discount: 'Minimum 55% Off',
+//     tagline: "Grab Now!",
+//     rating: 0,
+//     reviews: [],
+//     category: 'Electronics',
+//   }
