@@ -67,7 +67,7 @@ export const products = [
     tagline: "Deal of the Day",
     rating: 0,
     reviews: [],
-    category: "Autobiography",
+    category: "Biography",
   },
   {
     id: "product4",
