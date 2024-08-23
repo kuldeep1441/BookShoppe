@@ -47,9 +47,9 @@ export const products = [
   },
   {
     id: "product3",
-    url: "https://rukminim2.flixcart.com/image/150/150/xif0q/book/f/j/s/the-subtle-art-of-not-giving-a-f-ck-original-imah3shfjazehrga.jpeg?q=70",
+    url: "https://rukminim2.flixcart.com/image/312/312/xif0q/book/f/j/s/the-subtle-art-of-not-giving-a-f-ck-original-imah3shfjazehrga.jpeg?q=70",
     detailUrl:
-      "https://rukminim2.flixcart.com/image/216/216/xif0q/book/f/j/s/the-subtle-art-of-not-giving-a-f-ck-original-imah3shfjazehrga.jpeg?q=70",
+      "https://rukminim2.flixcart.com/image/312/312/xif0q/book/f/j/s/the-subtle-art-of-not-giving-a-f-ck-original-imah3shfjazehrga.jpeg?q=70",
     title: {
       shortTitle: "Fitness Gear",
       longTitle:
