@@ -39,7 +39,7 @@ const CategoryProductCarousel = () => {
           src={image.url}
           alt="banner"
           key={image.id}
-          className="w-full h-32 sm:h-[300px] object-cover"
+          className="w-full h-32 sm:h-[300px] object-cover rounded-2xl"
         />
       ))}
     </Carousel>
