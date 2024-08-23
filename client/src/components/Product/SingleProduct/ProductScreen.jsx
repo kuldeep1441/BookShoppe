@@ -29,9 +29,6 @@ const DetailView = () => {
             <p className="text-lg">{product.title.longTitle}</p>
             <p className="mt-1 text-gray-600 text-sm">
               8 Ratings & 1 Reviews
-              <span>
-                <img src={fassured} className="w-20 ml-0" />
-              </span>
             </p>
             <p className="mt-1">
               <span className="text-2xl">₹{product.price.cost}</span>

@@ -11,7 +11,7 @@ const ProductDetail = ({ product }) => {
         <>
             <h2 className="text-lg font-medium">Available offers</h2>
             <div className="text-sm mt-2 space-y-2">
-                <p className="flex items-center"><Badge className="text-green-600 mr-2" />Bank Offer 5% Unlimited Cashback on Flipkart Axis Bank Credit Card</p>
+                <p className="flex items-center"><Badge className="text-green-600 mr-2" />Bank Offer 5% Unlimited Cashback on Axis Bank Credit Card</p>
                 <p className="flex items-center"><Badge className="text-green-600 mr-2" />Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply</p>
                 <p className="flex items-center"><Badge className="text-green-600 mr-2" />Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs</p>
                 <p className="flex items-center"><Badge className="text-green-600 mr-2" />Partner OfferExtra 10% off upto ₹500 on next furniture purchase</p>
@@ -29,7 +29,7 @@ const ProductDetail = ({ product }) => {
                     <tr className="border-t">
                         <td className="text-gray-500 py-2">Seller</td>
                         <td className="py-2">
-                            <span className="text-blue-600">SuperComNet</span>
+                            <span className="text-blue-600">Kuldeep</span>
                             <p>GST invoice available</p>
                             <p>View more sellers starting from ₹329</p>
                         </td>

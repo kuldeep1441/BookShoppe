@@ -189,7 +189,7 @@ export const products = [
     category: "Philosophy",
   },
   {
-    id: "product8",
+    id: "product9",
     url: "https://rukminim2.flixcart.com/image/416/416/xif0q/book/h/y/f/data-structures-and-algorithms-with-the-c-stl-original-imagyatwevhnazkh.jpeg?q=70",
     detailUrl:
       "https://rukminim2.flixcart.com/image/416/416/xif0q/book/h/y/f/data-structures-and-algorithms-with-the-c-stl-original-imagyatwevhnazkh.jpeg?q=70",
