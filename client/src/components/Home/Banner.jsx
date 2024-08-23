@@ -30,7 +30,7 @@ const Banner = () => {
         if (!isTransitioning) {
           setCurrentIndex((prevIndex) => (prevIndex + 1) % totalSlides);
         }
-      }, 3000); // Matches autoPlaySpeed from original settings
+      }, 4000); // Matches autoPlaySpeed from original settings
 
       return () => clearInterval(interval);
     }

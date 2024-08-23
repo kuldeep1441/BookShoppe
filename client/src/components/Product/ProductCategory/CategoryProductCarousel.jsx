@@ -1,10 +1,7 @@
-
-
-
-
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { bannerData } from "../../../constants/data";
 
 const responsive = {
   desktop: {
@@ -21,7 +18,7 @@ const responsive = {
   },
 };
 
-const CategoryProductCarousel = ({ items }) => {
+const CategoryProductCarousel = () => {
   return (
     <Carousel
       swipeable={false}
@@ -37,11 +34,11 @@ const CategoryProductCarousel = ({ items }) => {
       dotListClass="custom-dot-list-style"
       itemClass="carousel-item-padding-40-px"
     >
-      {items.map((item) => (
+      {bannerData.map((image) => (
         <img
-          src={item.detailUrl} // Ensure this is the correct property
-          alt={item.title.longTitle}
-          key={item.id}
+          src={image.url}
+          alt="banner"
+          key={image.id}
           className="w-full h-32 sm:h-[300px] object-cover"
         />
       ))}
