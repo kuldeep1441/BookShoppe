@@ -105,7 +105,7 @@ const Header = () => {
             <img
               src="/Book.png"
               alt="BookShoppe"
-              className="w-32 h-auto" // Adjust size as needed
+              className="text-[#ab09a3]"
             />
           </Link>
         </div>
