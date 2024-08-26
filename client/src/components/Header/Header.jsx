@@ -105,7 +105,7 @@ const Header = () => {
             <img
               src="/Book.png"
               alt="BookShoppe"
-              className="text-[#ab09a3] h-[80px]"
+              className="text-[#ab09a3] h-[70px] py-1"
             />
           </Link>
         </div>
