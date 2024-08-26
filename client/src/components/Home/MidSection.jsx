@@ -7,8 +7,7 @@ const ImageURL = [
 ];
 
 const MidSection = () => {
-    const url =
-      "https://plus.unsplash.com/premium_photo-1675644727129-9e2fbc03c500?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmVsaWV2ZXxlbnwwfDB8MHx8fDA%3D";
+    const url = "https://unsplash.com/photos/pen-on-paper-6EnTPvPPL6I";
 
     return (
         <>
