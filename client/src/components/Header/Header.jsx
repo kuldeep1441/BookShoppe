@@ -99,9 +99,14 @@ const Header = () => {
         {/* Logo or Brand Name */}
         <div className="flex items-center space-x-4">
           <Link to="/" className="">
-            <span className="text-xl font-extrabold text-[#ab09a3] tracking-wide cursor-pointer">
+            {/* <span className="text-xl font-extrabold text-[#ab09a3] tracking-wide cursor-pointer">
               BookShoppe
-            </span>
+            </span> */}
+            <img
+              src="https://www.canva.com/design/DAGO9PfFRXQ/_oY0d7LPotdlcJaANW-iaw/edit?utm_content=DAGO9PfFRXQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+              alt="BookShoppe"
+              className="text-[#ab09a3]"
+            />
           </Link>
         </div>
 
