@@ -94,7 +94,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="w-full bg-white text-black shadow-md mb-2 p-2">
+    <header className="w-full bg-white text-black shadow-md mb-2">
       <div className="container mx-auto flex items-center justify-between py-1 px-4 sm:px-6 lg:px-8">
         {/* Logo or Brand Name */}
         <div className="flex items-center space-x-4">
