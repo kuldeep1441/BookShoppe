@@ -103,9 +103,9 @@ const Header = () => {
               BookShoppe
             </span> */}
             <img
-              src="https://www.canva.com/design/DAGO9PfFRXQ/_oY0d7LPotdlcJaANW-iaw/edit?utm_content=DAGO9PfFRXQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+              src="/Book.png"
               alt="BookShoppe"
-              className="text-[#ab09a3]"
+              className="w-32 h-auto" // Adjust size as needed
             />
           </Link>
         </div>
