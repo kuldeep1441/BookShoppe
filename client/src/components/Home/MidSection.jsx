@@ -7,7 +7,8 @@ const ImageURL = [
 ];
 
 const MidSection = () => {
-    const url = 'https://rukminim1.flixcart.com/flap/3006/433/image/4789bc3aefd54494.jpg?q=50';
+    const url =
+      "https://images.unsplash.com/photo-1605514449459-5a9cfa0b9955?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW90aXZhdGlvbmFsfGVufDB8MHwwfHx8MA%3D%3D";
 
     return (
         <>

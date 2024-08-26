@@ -91,8 +91,11 @@ const MultiSlide = ({ products, timer, tagline }) => {
 };
 
 const MidSlide = (props) => {
-  const adURL =
-    "https://rukminim1.flixcart.com/flap/464/708/image/633789f7def60050.jpg?q=70";
+  const adURL1 =
+    "https://images.unsplash.com/photo-1579766843772-f4c5ec56376c?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+  
+  const adURL2 =
+    "https://images.unsplash.com/photo-1530036846422-afb4b7af2fd4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHF1b3RlfGVufDB8MXwwfHx8MA%3D%3D";
 
   return (
     <div className="flex flex-col md:flex-row">
@@ -100,7 +103,7 @@ const MidSlide = (props) => {
       <div className="hidden md:block mt-2 bg-white p-4 text-center flex-1">
         <div className="text-center font-semibold">Quote of the Day</div>
         <img
-          src={adURL}
+          src={adURL1}
           className="w-full h-full object-contain p-4"
           alt="Advertisement"
         />
@@ -115,7 +118,7 @@ const MidSlide = (props) => {
       <div className="hidden lg:block mt-2 bg-white p-4 text-center flex-1">
         <div className="text-center font-semibold">Quote of the Day</div>
         <img
-          src={adURL}
+          src={adURL2}
           className="w-full h-full object-contain p-4"
           alt="Advertisement"
         />
