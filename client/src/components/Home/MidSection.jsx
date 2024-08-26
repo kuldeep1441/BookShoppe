@@ -1,14 +1,14 @@
 import React from 'react';
 
 const ImageURL = [
-    'https://rukminim1.flixcart.com/flap/960/960/image/2f30db9425df5cec.jpg?q=50',
-    'https://rukminim1.flixcart.com/flap/960/960/image/084789479074d2b2.jpg',
-    'https://rukminim1.flixcart.com/flap/960/960/image/1ce0c4c1fb501b45.jpg?q=50'
+  "https://plus.unsplash.com/premium_photo-1723619021737-df1d775eccc8?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "https://images.unsplash.com/photo-1531323386183-43890b5c766d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjUyfHxib29rcyUyMG1vdGl2YXRpb258ZW58MHwwfDB8fHww",
+  "https://images.unsplash.com/photo-1548438294-1ad5d5f4f063?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDR8fGJvb2tzJTIwbW90aXZhdGlvbnxlbnwwfDB8MHx8fDA%3D",
 ];
 
 const MidSection = () => {
     const url =
-      "https://images.unsplash.com/photo-1605514449459-5a9cfa0b9955?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW90aXZhdGlvbmFsfGVufDB8MHwwfHx8MA%3D%3D";
+      "https://plus.unsplash.com/premium_photo-1675644727129-9e2fbc03c500?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmVsaWV2ZXxlbnwwfDB8MHx8fDA%3D";
 
     return (
         <>

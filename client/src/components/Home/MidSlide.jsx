@@ -104,7 +104,7 @@ const MidSlide = (props) => {
         <div className="text-center font-semibold">Quote of the Day</div>
         <img
           src={adURL1}
-          className="w-full h-full object-contain p-4"
+          className="w-full h-[250px] object-contain p-4"
           alt="Advertisement"
         />
       </div>
