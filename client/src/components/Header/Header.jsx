@@ -95,7 +95,7 @@ const Header = () => {
 
   return (
     <header className="w-full bg-white text-black shadow-md mb-2 p-2">
-      <div className="container mx-auto flex items-center justify-between py-3 px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto flex items-center justify-between py-1 px-4 sm:px-6 lg:px-8">
         {/* Logo or Brand Name */}
         <div className="flex items-center space-x-4">
           <Link to="/" className="">
@@ -105,7 +105,7 @@ const Header = () => {
             <img
               src="/Book.png"
               alt="BookShoppe"
-              className="text-[#ab09a3] h-[70px] py-1"
+              className="text-[#ab09a3] h-[70px]"
             />
           </Link>
         </div>
