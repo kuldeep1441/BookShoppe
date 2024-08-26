@@ -4,7 +4,6 @@ import "react-multi-carousel/lib/styles.css";
 import Countdown from "react-countdown";
 import { Link } from "react-router-dom";
 
-// Responsive settings for Carousel
 const responsive = {
   largeDesktop: {
     breakpoint: { max: 3000, min: 1440 },
@@ -36,9 +35,8 @@ const RenderTimer = ({ hours, minutes, seconds }) => {
 };
 
 const MultiSlide = ({ products, timer, tagline }) => {
-  const data = products;
   return (
-    <div className="mt-2 bg-white">
+    <div className="h-full bg-white">
       <div className="flex p-4">
         <div className="text-xl font-semibold leading-8 mr-6">{tagline}</div>
         {timer && (
@@ -62,17 +60,17 @@ const MultiSlide = ({ products, timer, tagline }) => {
         autoPlaySpeed={10000}
         keyBoardControl={true}
         showDots={false}
-        containerClass="carousel-container"
+        containerClass="carousel-container h-full"
         dotListClass="custom-dot-list-style"
-        itemClass="carousel-item-padding-40-px"
+        itemClass="carousel-item-padding-40-px h-full"
       >
-        {data.map((temp) => (
+        {products.map((temp) => (
           <Link
             to={`product/${temp.id}`}
             key={temp.id}
-            className="no-underline"
+            className="no-underline h-full"
           >
-            <div className="text-center p-6">
+            <div className="text-center p-6 h-full">
               <img
                 src={temp.url}
                 className="h-36 w-auto m-auto"
@@ -93,39 +91,31 @@ const MultiSlide = ({ products, timer, tagline }) => {
 const MidSlide = (props) => {
   const adURL1 =
     "https://images.unsplash.com/photo-1579766843772-f4c5ec56376c?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
-
   const adURL2 =
     "https://images.unsplash.com/photo-1578909195836-cf7fab6794a5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA3fHxtb3RpdmF0aW9uYWx8ZW58MHwxfDB8fHww";
 
   return (
-    <div className="flex flex-col md:flex-row">
-      {/* Left Quote Image */}
-      <div className="hidden md:block mt-2 bg-white p-4 flex-1">
-        <div className="font-semibold mb-2 text-center">Quote of the Day</div>
-        <div className="relative w-full h-full aspect-square">
-          <img
-            src={adURL1}
-            className="absolute top-0 left-0 w-full h-full object-cover"
-            alt="Advertisement"
-          />
-        </div>
+    <div className="flex h-96">
+      <div className="hidden md:flex flex-col bg-white p-4 text-center flex-1 h-full">
+        <div className="text-center font-semibold mb-2">Quote of the Day</div>
+        <img
+          src={adURL1}
+          className="w-full h-full object-cover"
+          alt="Advertisement"
+        />
       </div>
 
-      {/* Carousel Slide */}
-      <div className="w-full md:w-3/4 lg:w-2/3">
+      <div className="w-full md:w-3/4 lg:w-2/3 h-full">
         {props.multi === true && <MultiSlide {...props} />}
       </div>
 
-      {/* Right Quote Image */}
-      <div className="hidden lg:block mt-2 bg-white p-4 flex-1">
-        <div className="font-semibold mb-2 text-center">Quote of the Day</div>
-        <div className="relative w-full h-full aspect-square">
-          <img
-            src={adURL2}
-            className="absolute top-0 left-0 w-full h-full object-cover"
-            alt="Advertisement"
-          />
-        </div>
+      <div className="hidden lg:flex flex-col bg-white p-4 text-center flex-1 h-full">
+        <div className="text-center font-semibold mb-2">Quote of the Day</div>
+        <img
+          src={adURL2}
+          className="w-full h-full object-cover"
+          alt="Advertisement"
+        />
       </div>
     </div>
   );
