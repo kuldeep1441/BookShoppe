@@ -24,7 +24,7 @@ export const cartReducer = (state =  {cartItems: []} , action) => {
         return {
           ...state,
           cartItems: state.cartItems.filter(
-            (x) => x.product !== action.payload.id
+            (x) => x.product !== action.payload
           ),
         }
       case actionTypes.CART_SAVE_SHIPPING_ADDRESS:
