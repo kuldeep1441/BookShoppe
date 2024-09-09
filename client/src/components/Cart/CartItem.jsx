@@ -33,7 +33,7 @@ const CartItem = memo(({ item, removeItemFromCart }) => {
           <span className="text-lg font-semibold">₹{item.price}</span>
         </div>
         <button
-          onClick={() => removeItemFromCart(item._id)}
+          onClick={() => removeItemFromCart(item.product)}
           className="text-base text-red-600 mt-5"
         >
           Remove
