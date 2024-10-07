@@ -22,7 +22,7 @@ const ActionItem = ({ product }) => {
   };
 
   return (
-    <div className="min-w-[40%] pt-10 pl-5 md:pt-5 md:px-10">
+    <div className="min-w-[40%] py-10 pl-5 md:py-5 md:px-10">
       <img
         src={product.detailUrl}
         className="p-4 border border-gray-200 w-[95%]"
