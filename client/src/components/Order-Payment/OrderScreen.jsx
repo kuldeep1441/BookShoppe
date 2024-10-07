@@ -92,7 +92,7 @@ const OrderScreen = () => {
     <Message variant="danger">{error}</Message>
   ) : (
     <>
-      <h1 className="text-2xl font-bold mb-4">Order {order._id}</h1>
+      <h1 className="text-2xl bg-white font-bold mb-4">Order {order._id}</h1>
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
         <div className="w-full md:w-2/3">
           <div className="bg-white p-4 shadow-md rounded-md mb-4">
