@@ -32,17 +32,17 @@ const ActionItem = ({ product }) => {
       <div className="flex">
         <button
           onClick={addItemToCart}
-          className="w-[46%] rounded h-12 text-white bg-[#ff9f00] mr-2 flex items-center justify-center"
+          className="w-[90%] rounded h-12 text-white bg-[#ab09a3] flex items-center justify-center"
         >
           <Cart className="mr-2" />
           Add to Cart
         </button>
-        <button
+        {/* <button
           onClick={checkoutHandler}
           className="w-[46%] rounded h-12 text-white bg-[#fb641b] flex items-center justify-center"
         >
           <Flash className="mr-2" /> Buy Now
-        </button>
+        </button> */}
       </div>
     </div>
   );
