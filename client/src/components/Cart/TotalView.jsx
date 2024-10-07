@@ -113,7 +113,7 @@ const TotalView = ({ cartItems, buyNow }) => {
         <div className="flex justify-center mt-4">
           <button
             onClick={() => buyNow()}
-            className="bg-orange-600 text-white px-2 py-2 rounded-md w-full lg:w-3/4 xl:w-3/4"
+            className="bg-purple-600 text-white px-2 py-2 rounded-md w-[90%] m-auto"
           >
             Place Order
           </button>

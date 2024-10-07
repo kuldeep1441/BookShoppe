@@ -24,7 +24,7 @@ const ShippingScreen = () => {
 
   return (
     <div className="mt--10 w-[99.8vw] h-[86vh] bg-white">
-      <div className="max-w-xl mx-auto mt-10 bg-white">
+      <div className="max-w-xl mx-auto bg-white">
         <CheckoutSteps step1 step2 />
         <h1 className="text-2xl font-semibold mb-5">Shipping</h1>
         <form onSubmit={submitHandler} className="space-y-4">
