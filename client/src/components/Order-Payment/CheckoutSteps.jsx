@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const CheckoutSteps = ({ step1, step2, step3, step4 }) => {
   return (
-    <nav className="flex justify-center mb-4">
+    <nav className="flex justify-center mb-4 bg-white">
       <div className="mx-2">
         {step1 ? (
           <Link to="/login" className="text-blue-600 hover:underline">

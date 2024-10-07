@@ -25,7 +25,7 @@ const PaymentScreen = () => {
   };
 
   return (
-    <FormContainer className="bg-white">
+    <FormContainer>
       <CheckoutSteps step1 step2 step3 />
       <h1 className="text-2xl font-semibold mb-6">Payment Method</h1>
       <form onSubmit={submitHandler}>
