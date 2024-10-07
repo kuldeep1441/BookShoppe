@@ -23,7 +23,7 @@ const ShippingScreen = () => {
   };
 
   return (
-    <div className="mt--10 w-[99.8vw] h-[86vh] bg-white">
+    <div className="mt--12 w-[99.8vw] h-[86vh] bg-white">
       <div className="max-w-xl mx-auto bg-white">
         <CheckoutSteps step1 step2 />
         <h1 className="text-2xl font-semibold mb-5">Shipping</h1>
